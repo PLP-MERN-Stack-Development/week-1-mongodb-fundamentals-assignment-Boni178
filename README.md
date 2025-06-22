@@ -40,6 +40,14 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 3. Include a screenshot of your MongoDB database
 4. Update the README.md with your specific setup instructions
 
+## Setup Instructions
+
+1. **Install MongoDB** (Community Edition) or sign up for **MongoDB Atlas**
+2. Run the provided `insert_books.js` to populate your collection
+3. Use **MongoDB Shell (mongosh)** or **MongoDB Compass** to interact with the database
+4. Save all your queries in a file named `queries.js`
+
+
 ## Resources
 
 - [MongoDB Documentation](https://docs.mongodb.com/)

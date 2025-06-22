@@ -196,3 +196,120 @@ insertBooks().catch(console.error);
  * 5. Find in-stock books:
  *    db.books.find({ in_stock: true })
  */ 
+
+
+/*Books to be inserted into the MongoDB collection */
+db.books.insertMany([
+  {
+    "title":"A Court of Silver Flames",
+    "author" : "Sarah J. Maas",
+    "genre" :"Fantasy",
+    "Published Year" :2020,
+    "Price" :14.00,
+    "in_stock" : true,
+    "Pages" :304,
+    "Publisher" :"Canongate Books"
+    
+  },
+
+    {
+    "title":"A Court of Thorns and Roses",
+    "author" : "Sarah J. Maas",
+    "genre" :"Fantasy/Romance",
+    "Published Year" :2015,
+    "Price" :16.00,
+    "in_stock" :true,
+    "Pages" :432,
+    "Publisher" :"Bloomsburg publishing "
+    
+  },
+    {
+    "title":"Vicious",
+    "author" : "V.E.Schwab",
+    "genre" :"Fantasy ",
+    "Published Year" :2021,
+    "Price" :16.95,
+    "in_stock" : false,
+    "Pages" :496,
+    "Publisher" :"Ballantine Books"
+    
+  },
+    {
+    "title":"The Invisible Life of Addie LaRue",
+    "author" : "V.E.Schwab",
+    "genre" :"Historical Fantasy",
+    "Published Year" :2020,
+    "Price" :13.99,
+    "in_stock" : true,
+    "Pages" :448,
+    "Publisher" :"Tor Books"
+    
+  },
+    {
+    "title":"Merit",
+    "author" : "Colleen Hoover",
+    "genre" :"Drama",
+    "Published Year" :2018,
+    "Price" :10.00,
+    "in_stock" : false,
+    "Pages" :384,
+    "Publisher" :"G.P.Putnams Sons"
+    
+  },
+    {
+    "title":"The Seven Husbands of Evelyn Hugo",
+    "author" : "Taylor Jenkins Reid",
+    "genre" :"Historical/Fiction",
+    "Published Year" :2020,
+    "Price" :11.99,
+    "in_stock" : true,
+    "Pages" :400,
+    "Publisher" :"Atria Books"
+    
+  },
+    {
+    "title":"Klara and the Sun",
+    "author" : "Kazuo Ishiguro",
+    "genre" :"Dystopia",
+    "Published Year" :2021,
+    "Price" :15.75,
+    "in_stock" : true,
+    "Pages" :320,
+    "Publisher" :"Faber & Faber"
+    
+  },
+    {
+    "title":"The House in the Cerulean Sea",
+    "author" : "Colleen Hoover",
+    "genre" :"Contemporary Romance ",
+    "Published Year" :2020,
+    "Price" :13.50,
+    "in_stock" : true,
+    "Pages" :398,
+    "Publisher" :"Tor Books"
+    
+  },
+    {
+    "title":"Verity",
+    "author" : "Colleen Hoover",
+    "genre" :"Thriller",
+    "Published Year" :2018,
+    "Price" :9.99,
+    "in_stock" : false,
+    "Pages" :336,
+    "Publisher" :"Grand Central Publishing "
+    
+  },
+    {
+    "title":"The Night Circus",
+    "author" : "Erin Morganstern",
+    "genre" :"Fantasy/Romance",
+    "Published Year" :2011,
+    "Price" :12.00,
+    "in_stock" : true,
+    "Pages" :387,
+    "Publisher" :"Doubleday"
+    
+  }
+]
+)
